@@ -1,0 +1,58 @@
+name: flutter_3d_portfolio
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons
+  cupertino_icons: ^1.0.8
+
+  # 3D model viewer
+  model_viewer_plus: ^1.10.0
+
+  # Animations
+  flutter_animate: ^4.5.2
+
+  # Reactive state management
+  reactable: ^0.1.7
+
+  # Flame game engine + audio
+  flame: ^1.35.1
+  flame_audio: ^2.11.14
+
+  # UI / layout
+  visibility_detector: ^0.4.0+2
+  flutter_staggered_grid_view: ^0.7.0
+
+  # External URLs
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/three_d_models/planet/
+    - assets/three_d_models/planet/textures/
+    - assets/three_d_models/desktop_pc/
+    - assets/three_d_models/desktop_pc/textures/
+    - assets/images/
+    - assets/audio/
+    - assets/vaishnavi_more_resume.pdf
+
+  fonts:
+    - family: Ebrima
+      fonts:
+        - asset: assets/fonts/ebrima.ttf
